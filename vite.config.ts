@@ -7,9 +7,9 @@ export default defineConfig({
   plugins: [react(), dts()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/useMath.ts'),
-      name: 'useMath',
-      fileName: 'useMath',
+      entry: path.resolve(__dirname, 'src/use-math.ts'),
+      name: 'use-math',
+      fileName: 'use-math',
       formats: ['es', 'umd'],
     },
     rollupOptions: {
@@ -25,5 +25,5 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     globals: true,
-  }
-})
+  },
+});
