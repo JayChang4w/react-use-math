@@ -9,6 +9,10 @@
     "calculator",
     "formula"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JayChang4w/react-use-math.git"
+  },
   "license": "MIT",
   "author": "jaychang4w@gmail.com",
   "main": "dist/use-math.umd.js",
